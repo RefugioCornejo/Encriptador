@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6945DE6D1CB988AF007E1060 /* MatrixManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6945DE6C1CB988AF007E1060 /* MatrixManager.cpp */; };
+		69602E391CAADE42006E5DC4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69602E381CAADE42006E5DC4 /* main.cpp */; };
+		69602E411CAAE03B006E5DC4 /* FileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69602E401CAAE03B006E5DC4 /* FileManager.cpp */; };
+		69602E4A1CAAF301006E5DC4 /* Conversor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69602E491CAAF301006E5DC4 /* Conversor.cpp */; };
+		69602E4D1CAB021A006E5DC4 /* KeyGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69602E4C1CAB021A006E5DC4 /* KeyGen.cpp */; };
+		69602E501CAB05AC006E5DC4 /* Encryption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69602E4F1CAB05AC006E5DC4 /* Encryption.cpp */; };
+		69745DDA1CDAB70A000C0769 /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 697BAFE01CB410CD00D7AC43 /* libtbb.dylib */; };
+		69745DDB1CDAB70A000C0769 /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 697BAFE11CB410CD00D7AC43 /* libtbbmalloc.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		69602E331CAADE42006E5DC4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6945DE6C1CB988AF007E1060 /* MatrixManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixManager.cpp; sourceTree = "<group>"; };
+		69602E351CAADE42006E5DC4 /* Encryption */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Encryption; sourceTree = BUILT_PRODUCTS_DIR; };
+		69602E381CAADE42006E5DC4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		69602E3F1CAADE5D006E5DC4 /* FileManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		69602E401CAAE03B006E5DC4 /* FileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileManager.cpp; sourceTree = "<group>"; };
+		69602E481CAAF176006E5DC4 /* Conversor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Conversor.h; sourceTree = "<group>"; };
+		69602E491CAAF301006E5DC4 /* Conversor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Conversor.cpp; sourceTree = "<group>"; };
+		69602E4B1CAB00F7006E5DC4 /* KeyGen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyGen.h; sourceTree = "<group>"; };
+		69602E4C1CAB021A006E5DC4 /* KeyGen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyGen.cpp; sourceTree = "<group>"; };
+		69602E4E1CAB0536006E5DC4 /* Encryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryption.h; sourceTree = "<group>"; };
+		69602E4F1CAB05AC006E5DC4 /* Encryption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Encryption.cpp; sourceTree = "<group>"; };
+		697BAFE01CB410CD00D7AC43 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = "../../../../../../usr/local/Cellar/tbb/4.4-20151115/lib/libtbb.dylib"; sourceTree = "<group>"; };
+		697BAFE11CB410CD00D7AC43 /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = "../../../../../../usr/local/Cellar/tbb/4.4-20151115/lib/libtbbmalloc.dylib"; sourceTree = "<group>"; };
+		69C03F201CB967E5009739C2 /* MatrixManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69602E321CAADE42006E5DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69745DDA1CDAB70A000C0769 /* libtbb.dylib in Frameworks */,
+				69745DDB1CDAB70A000C0769 /* libtbbmalloc.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69602E2C1CAADE42006E5DC4 = {
+			isa = PBXGroup;
+			children = (
+				697BAFE01CB410CD00D7AC43 /* libtbb.dylib */,
+				697BAFE11CB410CD00D7AC43 /* libtbbmalloc.dylib */,
+				69602E371CAADE42006E5DC4 /* Encryption */,
+				69602E361CAADE42006E5DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69602E361CAADE42006E5DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69602E351CAADE42006E5DC4 /* Encryption */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69602E371CAADE42006E5DC4 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				69C03F201CB967E5009739C2 /* MatrixManager.h */,
+				6945DE6C1CB988AF007E1060 /* MatrixManager.cpp */,
+				69602E481CAAF176006E5DC4 /* Conversor.h */,
+				69602E491CAAF301006E5DC4 /* Conversor.cpp */,
+				69602E381CAADE42006E5DC4 /* main.cpp */,
+				69602E4E1CAB0536006E5DC4 /* Encryption.h */,
+				69602E4F1CAB05AC006E5DC4 /* Encryption.cpp */,
+				69602E4B1CAB00F7006E5DC4 /* KeyGen.h */,
+				69602E4C1CAB021A006E5DC4 /* KeyGen.cpp */,
+				69602E3F1CAADE5D006E5DC4 /* FileManager.h */,
+				69602E401CAAE03B006E5DC4 /* FileManager.cpp */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69602E341CAADE42006E5DC4 /* Encryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69602E3C1CAADE42006E5DC4 /* Build configuration list for PBXNativeTarget "Encryption" */;
+			buildPhases = (
+				69602E311CAADE42006E5DC4 /* Sources */,
+				69602E321CAADE42006E5DC4 /* Frameworks */,
+				69602E331CAADE42006E5DC4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Encryption;
+			productName = Encryption;
+			productReference = 69602E351CAADE42006E5DC4 /* Encryption */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69602E2D1CAADE42006E5DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Refugio Cornejo";
+				TargetAttributes = {
+					69602E341CAADE42006E5DC4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 69602E301CAADE42006E5DC4 /* Build configuration list for PBXProject "Encryption" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 69602E2C1CAADE42006E5DC4;
+			productRefGroup = 69602E361CAADE42006E5DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69602E341CAADE42006E5DC4 /* Encryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69602E311CAADE42006E5DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6945DE6D1CB988AF007E1060 /* MatrixManager.cpp in Sources */,
+				69602E4A1CAAF301006E5DC4 /* Conversor.cpp in Sources */,
+				69602E391CAADE42006E5DC4 /* main.cpp in Sources */,
+				69602E4D1CAB021A006E5DC4 /* KeyGen.cpp in Sources */,
+				69602E501CAB05AC006E5DC4 /* Encryption.cpp in Sources */,
+				69602E411CAAE03B006E5DC4 /* FileManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69602E3A1CAADE42006E5DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69602E3B1CAADE42006E5DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69602E3D1CAADE42006E5DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/include,
+					"/usr/local/Cellar/tbb/4.4-20151115/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69602E3E1CAADE42006E5DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/include,
+					"/usr/local/Cellar/tbb/4.4-20151115/lib",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69602E301CAADE42006E5DC4 /* Build configuration list for PBXProject "Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69602E3A1CAADE42006E5DC4 /* Debug */,
+				69602E3B1CAADE42006E5DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69602E3C1CAADE42006E5DC4 /* Build configuration list for PBXNativeTarget "Encryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69602E3D1CAADE42006E5DC4 /* Debug */,
+				69602E3E1CAADE42006E5DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69602E2D1CAADE42006E5DC4 /* Project object */;
+}
